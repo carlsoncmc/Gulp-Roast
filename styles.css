@@ -1,0 +1,225 @@
+/* Boarder box */
+* {
+    box-sizing: border-box;
+   }
+
+/* Default font idenifier */
+* {
+    font-family: "lato-regular";
+  }
+
+/* Google fonts used per brand guides */
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.open-sans {
+  font-family: "OpenSans", serif;
+  font-style: normal;
+}
+
+/* Logo align */
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+/* Nav align */
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Nav display */
+.nav-box {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  padding: 3%;
+  font-size: 16pt;
+  font-family: "lato-regular", "OpenSans";
+}
+
+/* Color codes nav links */
+nav a:link {color: #F2F2F2;}
+nav a:visited {color: #D98555;}
+nav a:hover {color: #DBA463;}
+nav a:active {color: #F2F2F2;} 
+
+/* Nav boarder */
+nav {
+    border-top: 3px solid #D98555;
+    border-bottom: 3px solid #D98555;
+    padding: 5px;
+    background-color: #082B59;
+}
+  
+/* Two-up display */
+.two-up {
+   margin-top: 20px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 20px;
+}
+
+/* Copy block display */
+.main-paragraph {
+  position: relative;
+  text-align: left;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* body link*/
+.body-link {
+  color: #D98555;
+}
+
+/* Image position */
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+ 
+/* Image caption */  
+  .centered-caption {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 80%;
+  }
+  
+  .centered-caption p {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 10pt;
+    color: white;
+  }
+
+/* Contact us button */
+.button-pill {
+ background-color: #D98555;
+ border: none;
+ color: #F2F2F2;
+ padding: 10px 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ margin: 4px 2px;
+ cursor: pointer;
+ border-radius: 16px;
+}
+
+/* Color codes footer links */
+footer a:link {color: #F2F2F2;}
+footer a:visited {color: #D98555;}
+footer a:hover {color: #DBA463;}
+footer a:active {color: #F2F2F2;} 
+
+/* Product cards */
+.product-card {
+  width: 400px;
+  border: 1px solid #989898; /* Grey border */
+  background-color: rgb(232, 228, 228);
+  padding: 20px; /* Padding all around */
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+  border-radius: 16px;
+  margin: 1%;
+}
+
+.product-info {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.product-wall {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Footer display */
+.foot-container {
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  font-size: 8pt;
+  color: white;
+  background-color: #59331D;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Default styles */
+body {
+    background-color: white; /* Fallback color */
+  }
+  
+/* Small screens (phones) */
+  @media only screen and (max-width: 599px) {
+    .image-container {
+      width: 450px;
+    }
+    .two-up {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+    }
+    .product-wall {
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+  
+/* Medium screens (tablets, small desktops) */
+  @media only screen and (min-width: 600px) and (max-width: 1023px) {
+    .image-container {
+      width: 300px;
+    }
+    .two-up {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+    }
+    .product-wall {
+      
+    }
+  }
+  
+/* Large screens (desktops, wide displays) */
+  @media only screen and (min-width: 1024px) {
+    .two-up  {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+    }
+    .product-wall  {
+    
+    }
+  }
+
+  

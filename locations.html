@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <title> index </title>  
+    <link rel="stylesheet" href="styles.css">
+
+  <!-- Google fonts used per brand guides -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@700&display=swap" rel="stylesheet"> 
+</head>
+  
+<body>
+  
+  <header>
+<!-- Current Gulp Roast Logo -->
+<div class = "logo">
+    <img src="https://assets.codepen.io/6306176/gulp-logo-dark.png" alt="GulpRoastlogo"
+    width = "400">
+</div>
+
+<nav>
+  <!-- Main Nav Bar -->
+  <div class = "nav-container">  
+    <div class = "nav-box">  
+    <a href = "index.html">Home</a> </div>
+    <div class = "nav-box">  
+    <a href = "products.html">Shop</a> </div>
+    <div class = "nav-box">  
+    <a href = "about.html">About</a> </div>
+    <div class = "nav-box">  
+    <a href = "locations.html">Locations</a> </div>
+    <div class = "nav-box">  
+      <a href = "contact.html">Contact</a>
+  </div>
+  </div>
+</nav>
+
+</header>
+
+<!-- Two-up display -->
+<div class = "two-up">  
+    
+
+<!-- Copy block -->  
+  <div class = "main-paragraph">   
+      <h2 class="poppins-bold">Locations</h2>
+        <p class="lato-regular"> Location 1 <br> 200 Fisherman's Dock <br> San Francisco, CA 94158
+        </p>
+        <p class="lato-regular"> Location 2 <br> 500 Terry Francois Street <br> San Francisco, CA 94158
+          </p>
+
+ <!-- Contact Button -->       
+ <a href= "https://uxuicurriculum.wixsite.com/gulproast/contact">
+    <div class = "button-pill"> Contact Us</div>
+ </a>
+</div>
+  
+<!-- Image block -->    
+<div class="image-container">
+    <picture>
+      <!-- Image for mobile (up to 599px) -->
+      <source srcset="/images/gulp-menu.jpg" media="(max-width: 599px)">
+  
+      <!-- Image for tablet (600px to 1023px) -->
+      <source srcset="/images/gulp-coffee-closeup.jpg" media="(min-width: 600px) and (max-width: 1023px)">
+  
+      <!-- Image for desktop (1024px and up) -->
+      <source srcset="/images/gulp-menu.jpg" media="(min-width: 1024px)">
+  
+      <!-- Fallback image (required) -->
+      <img src="/images/gulp-pouring-coffee-horizontal.jpg" alt="coffee">
+    </picture>
+</div>
+</div>
+
+<!-- Footer Block -->   
+<footer>
+<div>
+    <div class="foot-container">
+     <p class="lato-regular">© edX Boot Camps LLC. <br> This is not a coffee website. <br> This is a fictitious company and scenario intended only for internal academic purposes.</p>
+     <a href = "https://www.facebook.com">Facebook</a>
+     <a href = "https://www.x.com">X</a>
+     <a href = "https://www.instagram.com">Instagram</a>
+    </div>
+</div>
+</footer>  
+  
+</body>
+</html>
