@@ -52,7 +52,12 @@
 nav a:link {color: #F2F2F2;}
 nav a:visited {color: #D98555;}
 nav a:hover {color: #DBA463;}
-nav a:active {color: #F2F2F2;} 
+nav a:active {color: #F2F2F2;}
+
+/* Color codes nav Active links */
+nav a.active {
+  color: #F2F2F2;
+}
 
 /* Nav boarder */
 nav {
