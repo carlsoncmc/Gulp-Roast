@@ -59,11 +59,24 @@ nav {
     background-color: #082B59;
 }
 
+
 /* Nav align */
-.nav-container {
-  display: flex;
-  justify-content: center;
+.mobile-nav-container {
+  display: none;
+  @media only screen and (max-width: 599px) {
+    display: flex;
+    background-color: yellow;
+  }
 }
+
+.nav-container {
+  display: none;
+  @media only screen and (min-width: 600px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 
 /* Nav display */
 .nav-box {
