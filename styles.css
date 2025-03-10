@@ -46,15 +46,6 @@ nav {
     background-color: #082B59;
 }
 
-/* Nav align */
-.nav-container {
-  display: none;
-  @media only screen and (min-width: 600px) {
-    display: flex;
-    justify-content: center;
-  }
-}
-
 /* Nav display */
 .nav-box {
   display: inline-block;
@@ -88,6 +79,9 @@ nav {
 .body-link {
   color: #D98555;
 }
+
+/* body link hover */
+body a:hover {color: #F2F2F2;}
 
 /* Image position */
 .image-container {
@@ -134,6 +128,34 @@ nav {
  border-radius: 16px;
 }
 
+/* Contact us button */
+.btn-primary {
+  background-color: #D98555;
+  border: none;
+  color: #F2F2F2;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+ }
+
+/* Bootstrap button product1 */
+#dropdownMenuButton1 {
+  background-color: #082B59 ;
+  border: none;
+  color: #F2F2F2;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+ }
+
 /* Color codes footer links */
 footer a:link {color: #F2F2F2;}
 footer a:visited {color: #D98555;}
@@ -160,6 +182,13 @@ footer a:active {color: #F2F2F2;}
   padding: 20px;
   display: flex;
   justify-content: center;
+}
+
+.BootstrapAdjustments {
+  margin: 1%;
+  border: 1px solid #989898; /* Grey border */
+  padding: 25px;
+  border-radius: 25px;
 }
 
 /* Footer display */
