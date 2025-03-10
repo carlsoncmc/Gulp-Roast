@@ -51,7 +51,6 @@ nav {
     background-color: #082B59;
 }
 
-
 /* Nav align */
 .mobile-nav-container {
   display: none;
@@ -245,4 +244,8 @@ body {
       .product-wall  {
       
       }
+    }
+
+    .white {
+      color: white;
     }
